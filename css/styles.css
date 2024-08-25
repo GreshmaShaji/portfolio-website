@@ -1,69 +1,93 @@
-/* Basic styles for the website */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Reset some basic styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-  }
-  
-  nav ul {
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0e5d6, #d8e3f0);
+    height: 100vh;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-  
-  h1, h2, h3 {
-    margin-bottom: 1rem;
-  }
-  
-  p, ul {
-    margin-bottom: 1rem;
-  }
-  
-  form {
-    display: flex;
+    align-items: center;
     flex-direction: column;
+    color: #333;
   }
   
-  form input, form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+  .container {
+    text-align: center;
   }
   
-  button {
-    padding: 0.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  .avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .email-btn {
+    background-color: #ff5e57;
+    color: white;
+  }
+  
+  .resume-btn {
+    background-color: #57aaff;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  footer img {
+    width: 30px;
+    cursor: pointer;
   }
   
