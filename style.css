@@ -22,13 +22,15 @@
   
   .avatar {
     width: 150px;
-    height: auto;
+    height: 150px;
     border-radius: 50%;
+    margin-bottom: 20px;
   }
   
   .intro h2 {
     font-size: 24px;
     margin: 20px 0 10px;
+    font-weight: normal;
   }
   
   .intro h1 {
@@ -38,14 +40,15 @@
   }
   
   .subtitle {
-    font-size: 18px;
+    font-size: 20px;
+    font-style: italic;
     margin-bottom: 20px;
   }
   
   .intro p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
-    margin: 10px 0;
+    margin: 15px 0;
   }
   
   strong {
@@ -58,11 +61,12 @@
   
   .btn {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border-radius: 25px;
     margin: 5px;
     font-size: 16px;
     transition: background 0.3s ease;
+    display: inline-block;
   }
   
   .email-btn {
@@ -86,7 +90,7 @@
     transform: translateX(-50%);
   }
   
-  footer img {
+  .scroll-icon {
     width: 30px;
     cursor: pointer;
   }
