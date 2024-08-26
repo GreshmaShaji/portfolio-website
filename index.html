@@ -8,27 +8,36 @@
 </head>
 <body>
   <div class="container">
-    <div class="intro">
-      <img src="AvatarMaker.png" alt="Greshma Shaji's Avatar" class="avatar">
-      <h2>Hello, my name is</h2>
-      <h1>Greshma</h1>
-      <p class="subtitle">MLOps Engineer & Data Scientist</p>
-      <p>
+    <div class="intro reveal">
+      <img src="your-avatar-image.png" alt="Greshma Shaji's Avatar" class="avatar">
+      <h2 class="reveal">Hello, my name is</h2>
+      <h1 id="typing-name" class="reveal"></h1>
+      <p class="subtitle reveal">MLOps Engineer & Data Scientist</p>
+      <p class="reveal">
         I’m a Data Scientist with experience in MLOps, backend development, and automation. 
         My current focus is on using AI and Machine Learning to optimize business processes and solve 
         complex problems. I'm passionate about <strong>Artificial Intelligence</strong> and love working with data.
       </p>
-      <div class="buttons">
+      <div class="buttons reveal">
         <a href="mailto:greeshmashaji123@gmail.com" class="btn email-btn">Send a mail</a>
         <a href="resume.pdf" class="btn resume-btn" target="_blank">View Resume</a>
       </div>
+      <button id="theme-toggle" class="theme-btn">Dark Mode</button>
     </div>
   </div>
 
   <footer>
-    <a href="#next-section">
+    <a href="#next-section" class="scroll-link">
       <img src="down-arrow-icon.png" alt="Scroll Down" class="scroll-icon">
     </a>
   </footer>
+
+  <!-- Next section for smooth scroll -->
+  <div id="next-section" class="reveal">
+    <h2>More about me</h2>
+    <p>This section could contain more information or lead to another part of your portfolio.</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
